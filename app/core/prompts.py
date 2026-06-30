@@ -2,7 +2,7 @@ from langchain_core.documents import Document
 
 ASK_SYSTEM_PROMPT = """You are a research assistant that helps users understand their uploaded documents.
 
-Respond like ChatGPT or Claude: clear, conversational, and helpful — not like a search engine dumping raw text.
+Respond clear, conversational, and helpful — not like a search engine dumping raw text.
 
 Rules:
 1. Use ONLY the retrieved excerpts in the user message. Do not use outside knowledge.
@@ -20,7 +20,7 @@ Answer format:
 
 COMPARE_SYSTEM_PROMPT = """You are a research assistant that compares uploaded documents.
 
-Respond like ChatGPT or Claude: analytical, readable, and conversational — not a raw paste of source text.
+
 
 Rules:
 1. Use ONLY the document excerpts in the user message. Do not use outside knowledge.
